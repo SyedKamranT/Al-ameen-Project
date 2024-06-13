@@ -499,3 +499,70 @@ body {
     color: #00923f;
 
  }
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+
+ }
+ .clgimg{
+    width: 736px;
+    padding-left: 25px;
+    height: 365px;
+
+ }
+ .imgs2 .pic1{
+      width: 290px;
+      height: 255px;
+ } 
+ .imgs2{
+    padding-left:100px ;
+    display: flex;
+    gap: 18px;
+ }
+ .mysection{
+    position:relative;
+    top: 100px;
+ }
+ .medal-logo1{
+    position: absolute;
+    top: 72px;
+    width: 8%;
+    left: 670px;
+ }
+ .medal-logo2{
+    width: 8%;
+    position: absolute;
+    left: 48px;
+    bottom: 112px;
+}
+.our-vision{
+    padding-right: 63px;
+    padding-top: 100px;
+}
+.our-vision p{
+    font-family: 'Poppins';
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 1px;
+    padding-top: 35px;
+    color: grey;
+}
+.our-vision h1{
+    font-size: 52px;
+    font-family: 'Poppins';
+
+}
+.our-vision button{
+    width: 215px;
+    height: 40px;
+    background-color: #00923f;
+    color: #000;
+    border: none;
+    font-weight: 700;
+    border-radius: 6px;
+    margin-top: 40px;
+    font-family: 'Poppins';
+    font-size: 15px;
+}

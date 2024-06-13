@@ -354,6 +354,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    width:1500px;
 }
 .headsleft{
     display: flex;
@@ -386,6 +387,7 @@ body {
     align-items: center;
     gap: 20px;
     padding-top: 30px;
+    width:1500px;
 
 }
 .card{
@@ -548,6 +550,7 @@ body {
     word-spacing: 1px;
     padding-top: 35px;
     color: grey;
+    width:558px;
 }
 .our-vision h1{
     font-size: 52px;

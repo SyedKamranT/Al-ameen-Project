@@ -552,6 +552,16 @@ body {
     color: grey;
     width:558px;
 }
+#morecontent{
+    font-family: 'Poppins';
+    font-size: 13px;
+    text-align: justify;
+    line-height: 1.5;
+    word-spacing: 1px;
+    padding-top: 35px;
+    color: grey;
+    width: 558px;
+}
 .our-vision h1{
     font-size: 52px;
     font-family: 'Poppins';

@@ -50,7 +50,7 @@
         </ul>
       </div>
       <div class="buttons">
-        <button id="join-now"><a href="loginpage.html">Join Now</a></button>
+        <button id="join-now">Join Now</button>
         <!-- ----------------------------------------------------- -->
         <div class="container">
           <form role="search" method="get" class="search-form" action="">
@@ -86,8 +86,8 @@
       </span>
       <!-- ---------------------------------------------------------------------------------------------- -->
 
-      <button>
-        <a href="loginpage.html">Enroll Now</a>
+      <button id="enroll-now">
+        Enroll Now
       </button>
       <!-- ---------------------------------------------------------------------------------------------- -->
       <div class="line"></div>
@@ -124,9 +124,13 @@
       <span id="crshead">Our Featured Courses</span>
     </div>
     <div class="headsright">
-      <span><img class="navimg" src="Group21-L.png" alt=""></span>
-      <span><img class="navimg" src="Group21-R.png" alt=""></span>
-
+     
+      <button id="leftbtn" style="border: none;
+      background-color: transparent;
+      cursor: pointer;"><img src="Group21-L.png" alt=""></button>
+      <button id="rightbtn" style="border: none;
+      background-color: transparent;
+      cursor: pointer;"><img src="Group21-R.png" alt=""></button>
     </div>
   </div>
   <div class="flexboxes">
@@ -166,15 +170,15 @@
       <p class="lrn">Learn more -- ></p>
     </div>
   </div>
-  
 
- <section class="mysection">
+
+  <section class="mysection">
     <div class="wrapper">
       <div class="images">
         <img class="clgimg" src="clg-img.png" alt="clgimg">
         <img class="medal-logo1" src="Group 42.png" alt="medal-logo">
         <div class="imgs2">
-           <img class="pic1" src="priscilla-du-preez-XkKCui44iM0-unsplash (1).png" alt="blwimg">
+          <img class="pic1" src="priscilla-du-preez-XkKCui44iM0-unsplash (1).png" alt="blwimg">
           <img class="pic1" src="priscilla-du-preez-XkKCui44iM0-unsplash.png" alt="blwimg">
           <img class="medal-logo2" src="Group 42.png" alt="medal-logo">
 
@@ -185,7 +189,7 @@
       </div>
       <div class="our-vision">
         <h1>Our Vision</h1>
-        <p>At AIIS, we create a nurturing learning environment that honors the unique talents  and diverse learning
+        <p>At AIIS, we create a nurturing learning environment that honors the unique talents and diverse learning
           styles of each student. Our commitment is to ensure that all students are empowered to reach their full
           potential through a balanced mix of curricular and extracurricular activities, ranging from academics and
           athletics to arts and cultural events. This holistic approach not only encourages academic success but also
@@ -193,13 +197,14 @@
           teachers, supportive parents, and engaged students, celebrates achievements in every form—whether in the
           classroom, on the sports field, or through service to the community. By fostering a culture of respect,
           encouragement, and inclusivity, we aim to inspire our students to become lifelong learners and responsible
-          global citizens.</p>
-          <button>Read More..</button>
+          global citizens.</p><span style="display: none;" id="morecontent">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime,
+          ex! Nesciunt, minima ducimus. Doloremque libero explicabo fugit quisquam quasi officia.</span>
+        <button id="readmore">Read More..</button>
 
       </div>
     </div>
   </section>
-
+  <script src="script.js"></script>
 </body>
 
 
